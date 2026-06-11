@@ -1,30 +1,23 @@
 body {
     background-color: #121212;
     color: #ffffff;
-    font-family: 'Segoe UI',sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     display: flex;
     justify-content: center;
     padding: 20px;
 }
 
-.container{
+.container {
     width: 400px;
     background-color: #1e1e1e;
     padding: 20px;
     border-radius: 10px;
     border: 1px solid #333;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5)
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
-h1 {
-   color: #00ff88;
-   text-align: center;
-}
-h3{
-  color: #00d4ff;
-  border-bottom: 1px solid #333;
-  padding-bottom: 5px;
-}
+h1 { color: #00ff88; text-align: center; }
+h3 { color: #00d4ff; border-bottom: 1px solid #333; padding-bottom: 5px; }
 
 .card {
     background: #252525;
@@ -33,7 +26,7 @@ h3{
     border-left: 5px solid #00ff88;
 }
 
-button{
+button {
     width: 100%;
     padding: 15px;
     margin-top: 20px;
@@ -42,25 +35,16 @@ button{
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.3s; 
+    transition: 0.3s;
 }
 
- button:hover { 
-    background-color: #00cc6e;
-    
+button:hover { background-color: #00cc6e; }
 
- }
-ul {
-    list-style: none;
-    padding: 0;
+ul { list-style: none; padding: 0; }
+li { padding: 5px 0; color: #ccc; }
 
-
-}
-li{
-    padding: 5px 0;
-    color: #ccc;
-}
-input, section{
+/* Adicione ao CSS anterior */
+input, select {
     width: 100%;
     padding: 10px;
     margin: 8px 0;
@@ -68,19 +52,16 @@ input, section{
     border: 1px solid #444;
     background-color: #252525;
     color: white;
-    box-sizing: border-box;
-    
-
+    box-sizing: border-box; /* Garante que o padding não quebre a largura */
 }
-hr
-{
+
+hr {
     border: 0;
     border-top: 1px solid #333;
     margin: 20px 0;
 }
 
-.card
-{
+.card {
     background: #252525;
     padding: 15px;
     margin-top: 15px;
